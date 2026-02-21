@@ -46,7 +46,7 @@ set_background("pages\yeildBAckgroung.jpg")
 # ==============================
 # 🔐 Initialize Gemini AI (SAFE)
 # ==============================
-genai.configure(api_key=os.getenv("AIzaSyDMFdeC5sxov55qvRGce9Rc5RiHr2jLqOM"))
+genai.configure(api_key=os.getenv("API_KEY"))
 
 def ask_gemini(question):
     try:
@@ -123,3 +123,4 @@ if st.button("🔍 Predict Crop"):
                 f"Give best farming practices, fertilizer advice, and climate conditions for growing {crop} in India."
             )
         )
+
