@@ -56,7 +56,7 @@ model.fit(X_train, y_train)
 # ================================
 # 🤖 Gemini API Setup
 # ================================
-genai.configure(api_key="AIzaSyDMFdeC5sxov55qvRGce9Rc5RiHr2jLqOM")  # Replace with your Gemini API Key 
+genai.configure(api_key="API_KEY")  # Replace with your Gemini API Key 
 
 def get_best_crop_suggestion(N, P, K, temperature, pH, area, rainfall, production, state):
     prompt = f"""
@@ -141,4 +141,5 @@ if st.button("🚀 Predict Yield"):
 if satisfaction_clicked:
     st.subheader("🔍 **Best Crop Suggestion**")
     suggestion = get_best_crop_suggestion(N, P, K, temperature, pH, area, rainfall, production, state_selected)
+
     st.info(f"🌟 **AI Suggestion:** {suggestion}")
