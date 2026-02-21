@@ -11,7 +11,7 @@ import google.generativeai as genai
 # ================================
 # 🚀 Configure Google Gemini API
 # ================================
-GEMINI_API_KEY = "AIzaSyDMFdeC5sxov55qvRGce9Rc5RiHr2jLqOM"  # Add your API Key
+GEMINI_API_KEY = "API_KEY"  # Add your API Key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ================================
@@ -161,5 +161,6 @@ elif page == "📊 Crop Trends":
     ax.set_xlabel("Month")
     ax.set_ylabel("Price per kg (₹)")
     ax.grid(True)
+
 
     st.pyplot(fig)
