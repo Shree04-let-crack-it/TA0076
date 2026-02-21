@@ -3,7 +3,7 @@ import pickle
 import google.generativeai as genai
 
 # 🎯 Configure Gemini API Key (Replace with your actual API key)
-GEMINI_API_KEY = "AIzaSyDMFdeC5sxov55qvRGce9Rc5RiHr2jLqOM"  # Add your API key here
+GEMINI_API_KEY = "API_key"  # Add your API key here
 genai.configure(api_key=GEMINI_API_KEY)
 
 # 🌾 Available Crop Types (Dropdown options)
@@ -81,3 +81,4 @@ if st.button("📊 Get Fertilizer Recommendation"):
 # ================================
 # 💾 Save Model Option (Optional)
 # ===============================
+
