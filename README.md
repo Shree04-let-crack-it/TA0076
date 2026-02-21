@@ -121,7 +121,7 @@ Government scheme integration
 Scalable deployment for multiple farms
 
 
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/46f2c20d-f478-42a3-a5a7-747188e0d718" />
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/37cb6fd1-0d0e-4a3f-9e8b-574b759f2145" />
-<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/2d3e246c-7540-4d91-bdd6-29b289d72e32" />
+<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/46f2c20d-f478-42a3-a5a7-747188e0d718" />
+<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/37cb6fd1-0d0e-4a3f-9e8b-574b759f2145" />
+<img width="500" height="1000" alt="image" src="https://github.com/user-attachments/assets/2d3e246c-7540-4d91-bdd6-29b289d72e32" />
 
